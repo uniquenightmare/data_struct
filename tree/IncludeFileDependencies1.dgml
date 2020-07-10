@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @20)" Category="CodeSchema_ProjectItem" Bounds="20,151.996000154158,79.7746667437457,25.998000077079" FilePath="$(VsSolution)\tree\heap.h" Label="heap.h" />
+    <Node Id="(@1 @5)" Category="CodeSchema_ProjectItem" Bounds="123.951333410412,95.998000077079,78.4013334104124,25.998000077079" FilePath="$(VsSolution)\tree\heap.c" Label="heap.c" />
+    <Node Id="(@1 @6)" Category="CodeSchema_ProjectItem" Bounds="123.951333410412,40,61.9046667437457,25.998000077079" FilePath="$(VsSolution)\tree\堆.c" Label="堆.c" />
+    <Node Id="@11" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\malloc.h" Label="malloc.h" />
+    <Node Id="@13" Category="CodeSchema_ProjectItem" Bounds="20,95.998000077079,73.9513334104124,25.998000077079" FilePath="$(VsSolution)\tree\tree.h" Label="tree.h" />
+    <Node Id="@15" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\concurrencysal.h" Label="concurrencysal.h" />
+    <Node Id="@17" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\sal.h" Label="sal.h" />
+    <Node Id="@19" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\stdio.h" Label="stdio.h" />
+    <Node Id="@2" Category="CodeSchema_PoundIncludeFile" Bounds="0,0,222.352666820825,197.994000231237" FilePath="$(VsSolution)\tree\tree.vcxproj" Group="Expanded" Label="tree.vcxproj" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
+    <Node Id="@22" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\vadefs.h" Label="vadefs.h" />
+    <Node Id="@24" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\crtdefs.h" Label="crtdefs.h" />
+    <Node Id="@26" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\codeanalysis\sourceannotations.h" Label="sourceannotations.h" />
+    <Node Id="@28" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\limits.h" Label="limits.h" />
+    <Node Id="@30" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\assert.h" Label="assert.h" />
+    <Node Id="@32" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\windows kits\8.1\include\shared\winapifamily.h" Label="winapifamily.h" />
+    <Node Id="@34" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\swprintf.inl" Label="swprintf.inl" />
+    <Node Id="@4" Category="CodeSchema_ProjectItem" Bounds="20.6866666666667,40,72.578000077079,25.998000077079" FilePath="$(VsSolution)\tree\tree.c" Label="tree.c" />
+    <Node Id="@9" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\vc\include\stdlib.h" Label="stdlib.h" />
+    <Node Id="C/C++ Standard Library 间接包含" Category="CodeSchema_PoundIncludeGroup" Group="Collapsed" Label="间接包含" />
+    <Node Id="G2" Category="CodeSchema_PoundIncludeGroup" Group="Collapsed" Label="C/C++ Standard Library" />
+    <Node Id="G4" Category="CodeSchema_PoundIncludeGroup" Group="Collapsed" Label="Windows SDK" />
+    <Node Id="PoundIncludeGraphExternalsGroup" Category="Externals" Bounds="79.1763334104124,227.994000231237,64,25" Group="Collapsed" Label="外部" />
+    <Node Id="Windows SDK 间接包含" Category="CodeSchema_PoundIncludeGroup" Group="Collapsed" Label="间接包含" />
+  </Nodes>
+  <Links>
+    <Link Source="@11" Target="@24" Category="PoundInclude" />
+    <Link Source="@13" Target="@11" Category="PoundInclude" />
+    <Link Source="@13" Target="@19" Category="PoundInclude" />
+    <Link Source="@13" Target="@30" Category="PoundInclude" />
+    <Link Source="@13" Target="@9" Category="PoundInclude" />
+    <Link Source="@17" Target="@15" Category="PoundInclude" />
+    <Link Source="@17" Target="@26" Category="PoundInclude" />
+    <Link Source="@19" Target="@24" Category="PoundInclude" />
+    <Link Source="@19" Target="@34" Category="PoundInclude" />
+    <Link Source="@2" Target="(@1 @20)" Category="Contains" />
+    <Link Source="@2" Target="(@1 @5)" Category="Contains" />
+    <Link Source="@2" Target="(@1 @6)" Category="Contains" />
+    <Link Source="@2" Target="@13" Category="Contains" />
+    <Link Source="@2" Target="@4" Category="Contains" />
+    <Link Source="@24" Target="@17" Category="PoundInclude" />
+    <Link Source="@24" Target="@22" Category="PoundInclude" />
+    <Link Source="@24" Target="@32" Category="PoundInclude" />
+    <Link Source="@28" Target="@24" Category="PoundInclude" />
+    <Link Source="@30" Target="@24" Category="PoundInclude" />
+    <Link Source="@34" Target="@22" Category="PoundInclude" />
+    <Link Source="@4" Target="@13" Category="PoundInclude" Bounds="56.9756660461426,65.9980010986328,0,21" />
+    <Link Source="@9" Target="@24" Category="PoundInclude" />
+    <Link Source="@9" Target="@28" Category="PoundInclude" />
+    <Link Source="C/C++ Standard Library 间接包含" Target="@15" Category="Contains" />
+    <Link Source="C/C++ Standard Library 间接包含" Target="@17" Category="Contains" />
+    <Link Source="C/C++ Standard Library 间接包含" Target="@22" Category="Contains" />
+    <Link Source="C/C++ Standard Library 间接包含" Target="@24" Category="Contains" />
+    <Link Source="C/C++ Standard Library 间接包含" Target="@26" Category="Contains" />
+    <Link Source="C/C++ Standard Library 间接包含" Target="@28" Category="Contains" />
+    <Link Source="C/C++ Standard Library 间接包含" Target="@34" Category="Contains" />
+    <Link Source="G2" Target="@11" Category="Contains" />
+    <Link Source="G2" Target="@19" Category="Contains" />
+    <Link Source="G2" Target="@30" Category="Contains" />
+    <Link Source="G2" Target="@9" Category="Contains" />
+    <Link Source="G2" Target="C/C++ Standard Library 间接包含" Category="Contains" />
+    <Link Source="G4" Target="Windows SDK 间接包含" Category="Contains" />
+    <Link Source="PoundIncludeGraphExternalsGroup" Target="G2" Category="Contains" />
+    <Link Source="PoundIncludeGraphExternalsGroup" Target="G4" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@32" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_PoundIncludeFile" Label="C++ 项目文件" BasedOn="File" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="C++ 项目文件" />
+    <Category Id="CodeSchema_PoundIncludeGroup" Label="#include 组" BasedOn="Group" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="#include 组" />
+    <Category Id="CodeSchema_ProjectItem" Label="项目项" BasedOn="File" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="File" NavigationActionLabel="项目项" />
+    <Category Id="Contains" Label="包含" Description="链接的源是否包含目标对象" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="包含者" IsContainment="True" OutgoingActionLabel="包含" />
+    <Category Id="Externals" Label="外部" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="外部" />
+    <Category Id="File" Label="文件" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="文件" />
+    <Category Id="Group" Label="组" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="组" />
+    <Category Id="PoundInclude" Label="#include" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="#include 调用方" OutgoingActionLabel="#include" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FilePath" Label="文件路径" Description="文件路径" DataType="System.String" />
+    <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Language" Label="语言" Description="语言" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="File" Label="文件" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/tree/tree.vcxproj" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="File=$(VsSolutionUri)/tree/tree.c" />
+    <Alias n="4" Id="(@1 @3)" />
+    <Alias n="5" Uri="File=$(VsSolutionUri)/tree/heap.c" />
+    <Alias n="6" Uri="File=$(VsSolutionUri)/tree/堆.c" />
+    <Alias n="7" Uri="Assembly=" />
+    <Alias n="8" Uri="File=$(VsInstallDirUri)/vc/include/stdlib.h" />
+    <Alias n="9" Id="(@7 @8)" />
+    <Alias n="10" Uri="File=$(VsInstallDirUri)/vc/include/malloc.h" />
+    <Alias n="11" Id="(@7 @10)" />
+    <Alias n="12" Uri="File=$(VsSolutionUri)/tree/tree.h" />
+    <Alias n="13" Id="(@1 @12)" />
+    <Alias n="14" Uri="File=$(VsInstallDirUri)/vc/include/concurrencysal.h" />
+    <Alias n="15" Id="(@7 @14)" />
+    <Alias n="16" Uri="File=$(VsInstallDirUri)/vc/include/sal.h" />
+    <Alias n="17" Id="(@7 @16)" />
+    <Alias n="18" Uri="File=$(VsInstallDirUri)/vc/include/stdio.h" />
+    <Alias n="19" Id="(@7 @18)" />
+    <Alias n="20" Uri="File=$(VsSolutionUri)/tree/heap.h" />
+    <Alias n="21" Uri="File=$(VsInstallDirUri)/vc/include/vadefs.h" />
+    <Alias n="22" Id="(@7 @21)" />
+    <Alias n="23" Uri="File=$(VsInstallDirUri)/vc/include/crtdefs.h" />
+    <Alias n="24" Id="(@7 @23)" />
+    <Alias n="25" Uri="File=$(VsInstallDirUri)/vc/include/codeanalysis/sourceannotations.h" />
+    <Alias n="26" Id="(@7 @25)" />
+    <Alias n="27" Uri="File=$(VsInstallDirUri)/vc/include/limits.h" />
+    <Alias n="28" Id="(@7 @27)" />
+    <Alias n="29" Uri="File=$(VsInstallDirUri)/vc/include/assert.h" />
+    <Alias n="30" Id="(@7 @29)" />
+    <Alias n="31" Uri="File=$(ProgramFilesUri)/windows kits/8.1/include/shared/winapifamily.h" />
+    <Alias n="32" Id="(@7 @31)" />
+    <Alias n="33" Uri="File=$(VsInstallDirUri)/vc/include/swprintf.inl" />
+    <Alias n="34" Id="(@7 @33)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="C++ 项目文件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_PoundIncludeFile')" />
+      <Setter Property="Background" Value="#FFEFEFEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="源文件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_ProjectItem')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="#include 组" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_PoundIncludeGroup')" />
+      <Setter Property="Background" Value="#FFEFEFEF" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="ProgramFiles" Value="C:\Program Files (x86)" />
+    <Path Id="ProgramFilesUri" Value="file:///C:/Program Files (x86)" />
+    <Path Id="VsInstallDir" Value="D:\vs" />
+    <Path Id="VsInstallDirUri" Value="file:///D:/vs" />
+    <Path Id="VsSolution" Value="G:\bite homework\C语言进阶\tree" />
+    <Path Id="VsSolutionUri" Value="file:///G:/bite homework/C语言进阶/tree" />
+  </Paths>
+</DirectedGraph>
