@@ -1,0 +1,31 @@
+﻿生成启动时间为 2019/8/25 15:26:59。
+     1>项目“G:\bite homework\C语言进阶\字符串\字符串\字符串.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs\VC\bin\CL.exe /c /I"D:\vld\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt memmove.c strcat.c strchar.c strcmp.c strncat.c strncmp.c strncpy.c strstr.c memcpy.c
+         memcpy.c
+         strstr.c
+     1>g:\bite homework\c语言进阶\字符串\字符串\strstr.c(8): warning C4090: “初始化”: 不同的“const”限定符
+         strncpy.c
+         strncmp.c
+         strncat.c
+         strcmp.c
+         strchar.c
+         strcat.c
+         memmove.c
+         正在生成代码...
+       Link:
+         D:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\bite homework\C语言进阶\字符串\Debug\字符串.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\vld\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\bite homework\C语言进阶\字符串\Debug\字符串.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\bite homework\C语言进阶\字符串\Debug\字符串.lib" /MACHINE:X86 Debug\memmove.obj
+         Debug\strcat.obj
+         Debug\strchar.obj
+         Debug\strcmp.obj
+         Debug\strncat.obj
+         Debug\strncmp.obj
+         Debug\strncpy.obj
+         Debug\strstr.obj
+         Debug\memcpy.obj
+         字符串.vcxproj -> G:\bite homework\C语言进阶\字符串\Debug\字符串.exe
+     1>已完成生成项目“G:\bite homework\C语言进阶\字符串\字符串\字符串.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.69
